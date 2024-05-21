@@ -9,7 +9,7 @@ defineProps<CardProps>();
 </script>
 
 <template>
-  <body class="bg-gradient-to-b from-grey-50 to-grey-300">
+  <body class="bg-gradient-to-b from-grey-50 to-grey-600">
     <div class="card flex flex-col justify-center px-4 mx-auto">
       <article class="bg-white rounded-lg p-4 shadow-lg">
         <div class="my-4 flex flex-row">
@@ -48,7 +48,7 @@ body {
 
 .card {
   width: 372px;
-  margin-top: 120px;
+  margin-top: 200px;
 }
 
 * {
